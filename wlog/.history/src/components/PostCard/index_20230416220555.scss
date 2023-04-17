@@ -1,0 +1,42 @@
+@import '../../styles/base.scss';
+@import '../../styles/style.scss';
+
+.tagBase{
+
+}
+
+
+.card{
+    cursor: pointer;
+
+    .title{
+        height: 80px;
+        line-height: 80px;
+        font-size: 28px;
+        font-weight: 700;
+        color: $textColor;
+    }
+
+    .content{
+        height: 80px;
+        text-indent: 2em;
+        color:$textColor;
+        text-overflow: ellipsis;
+
+    }
+
+    .info{
+        position: relative;
+        height: 40px;
+    }
+    
+    .date{
+        font-size: 20px;
+        color: $textColor;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: $themeColor1;
+        @extend .hove
+    }
+}

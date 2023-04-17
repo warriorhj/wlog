@@ -1,0 +1,31 @@
+
+@import '../../../styles/base.scss';
+
+.card{
+    border-radius: 10px;
+    height:200px;
+    box-sizing: border-box;
+    position: relative;
+
+    .text{
+        font-size: 20px;
+        line-height: 34px;
+        position: absolute;
+        top: 36px;
+        left: 20px;
+        z
+    }
+    
+    .color{
+        font-weight: 700;
+        color:$hoverColor;
+    }
+
+    .avater{
+        position: absolute;
+        right: -30px;
+        bottom: 0;
+        height: 200px;
+    }
+}
+

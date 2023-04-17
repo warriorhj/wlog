@@ -1,0 +1,23 @@
+
+@import "../../styles/base.scss";
+
+
+.box {
+  color:$textColor;
+  height: $topTitleHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $layoutWidth;
+  margin: 0 auto;
+
+  .title{
+    font-size: 56px;
+    font-weight: 700;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .desc{
+    
+  }
+}

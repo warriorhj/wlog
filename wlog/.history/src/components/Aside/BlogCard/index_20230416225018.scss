@@ -1,0 +1,18 @@
+
+@import '../../../styles/base.scss';
+
+.card{
+    height:200px;
+    box-sizing: border-box;
+
+    .text{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    
+    .color{
+        font-weight: 700;
+        color:$hoverColor;
+    }
+}
+

@@ -1,0 +1,17 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Hao
+ * @Date: 2023-04-16 15:37:09
+ * @LastEditors: Hao
+ * @LastEditTime: 2023-04-16 17:03:53
+ * @FilePath: \wlog\src\pages\Home\Section\index.scss
+ */
+
+@import '../../../styles/base.scss';
+
+.section {
+  width: calc(100% -#{$asideWidth});
+  padding-right: $space;
+  box-sizing: border-box;
+}

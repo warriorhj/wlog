@@ -1,0 +1,22 @@
+@import '../../styles/base.scss';
+@import '../../styles/style.scss';
+
+.card{
+    cursor: pointer;
+
+    .title{
+        height: 80px;
+        line-height: 80px;
+        font-size: 28px;
+        font-weight: 700;
+        color: $textColor;
+    }
+
+    .content{
+        height: 80px;
+        text-indent: 2em;
+        color:$textColor;
+        text-overflow: ellipsis;
+
+    }
+}

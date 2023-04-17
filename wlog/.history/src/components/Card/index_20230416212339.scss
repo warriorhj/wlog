@@ -1,0 +1,13 @@
+@import '../../styles/base.scss';
+@import '../../styles/style.scss';
+
+
+.card{
+    margin-bottom: $space;
+    border-bottom: $bigRadius;
+    overflow: hidden;
+    background-color: $themeColor;
+    color: $textColor;
+    padding:$space;
+    @extend
+}

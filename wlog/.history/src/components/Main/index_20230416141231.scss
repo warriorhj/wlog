@@ -1,0 +1,11 @@
+@import '../../styles/base.scss';
+
+
+.main{
+    min-width: none;
+
+    .center{
+        width: $centerWidth;
+        margin: auto;
+    }
+}
