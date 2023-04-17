@@ -9,7 +9,6 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
-    "@babel/runtime-corejs3": "^7.21.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -28,13 +27,11 @@
     "typed.js": "^2.0.15",
     "typescript": "^5.0.4",
     "web-vitals": "^2.1.4",
-    "webpack-bundle-analyzer": "^4.8.0",
     "webpack-dev-server": "^4.13.2",
     "webpackbar": "^5.0.2"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./scripts/config/webpack.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --config ./scripts/config/webpack.prod.js"
   },
   "eslintConfig": {
     "extends": [
