@@ -18,7 +18,6 @@ const common = require('./webpack.common');
 const { ROOT_PATH } = require('../constant');
 
 module.exports = merge(common, {
-  watch:false,
   target: 'browserslist',
   mode: 'production',
   devtool: false,

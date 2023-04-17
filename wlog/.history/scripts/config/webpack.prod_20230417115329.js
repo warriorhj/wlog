@@ -1,12 +1,3 @@
-/*
- * @Descripttion: 
- * @version: 
- * @Author: Hao
- * @Date: 2023-04-15 12:01:39
- * @LastEditors: Hao
- * @LastEditTime: 2023-04-17 11:53:30
- * @FilePath: \wlog\scripts\config\webpack.prod.js
- */
 const path = require('path');
 const { merge } = require('webpack-merge');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -18,7 +9,6 @@ const common = require('./webpack.common');
 const { ROOT_PATH } = require('../constant');
 
 module.exports = merge(common, {
-  watch:false,
   target: 'browserslist',
   mode: 'production',
   devtool: false,

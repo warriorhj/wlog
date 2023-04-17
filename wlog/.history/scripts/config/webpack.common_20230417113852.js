@@ -118,6 +118,8 @@ module.exports = {
   entry: {
     index: path.resolve(ROOT_PATH, './src/index')
   },
+  watr
+
   plugins: [
     // html模板
     new HtmlWebpackPlugin({

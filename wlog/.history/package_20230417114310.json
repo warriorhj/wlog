@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./scripts/config/webpack.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --progress --config ./scripts/config/webpack.prod.js"
+    "build": "cross-env NODE_ENV=production webpack --watch --config ./scripts/config/webpack.prod.js"
   },
   "eslintConfig": {
     "extends": [
